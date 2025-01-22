@@ -1,0 +1,61 @@
+/* Aplicar un color de fondo a toda la página */
+body {
+  
+
+    background-image: url('huariaca.jpg'); /* Ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* La imagen permanece fija al hacer scroll */
+    background-position: center; /* Centra la imagen */
+}
+
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #af3636;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Estilo para las secciones */
+.section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
